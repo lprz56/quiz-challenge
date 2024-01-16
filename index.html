@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Word Guess Game</title>
+</head>
+<body>
+
+  <!-- Game Section -->
+  <div id="game-container">
+    <h1>Word Guess Game</h1>
+    <p id="word-display"></p>
+    <p id="message"></p>
+    <p>Wins: <span id="win-count">0</span></p>
+    <p>Losses: <span id="loss-count">0</span></p>
+    <button id="quiz-start-button">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-container" style="display: none;">
+    <h2>Quiz Time!</h2>
+    <p id="quiz-question"></p>
+    <div id="quiz-options"></div>
+    <button id="quiz-submit">Submit Answer</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
